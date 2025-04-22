@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aline Cunico | Creative Lead</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f4f1f8; /* Pastel lavender background */
+      color: #2d2a44; /* Darker shade for text */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .card {
+      background: #fff7fc; /* Pastel pink card background */
+      max-width: 500px;
+      width: 100%;
+      padding: 2.5rem;
+      border-radius: 24px;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.08);
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 8px;
+      background: linear-gradient(90deg, #d4c7ff, #ffb3c6); /* Pastel gradient */
+    }
+    .profile-img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1.5rem;
+      border: 4px solid #e6e0fa; /* Pastel purple border */
+      box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+      color: #2d2a44;
+    }
+    h2 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: #7c769a; /* Muted pastel purple */
+      margin-bottom: 1.25rem;
+    }
+    p {
+      font-size: 0.95rem;
+      color: #4a4666;
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+      margin-bottom: 2.5rem;
+    }
+    .skill {
+      background: #e6e0fa; /* Pastel purple skill background */
+      color: #5a4b9c; /* Darker pastel shade for text */
+      padding: 0.5rem 1rem;
+      border-radius: 9999px;
+      font-size: 0.85rem;
+      font-weight: 500;
+      transition: transform 0.2s ease, background 0.2s ease;
+    }
+    .skill:hover {
+      transform: translateY(-2px);
+      background: #d4c7ff; /* Lighter pastel on hover */
+    }
+    .socials {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+    }
+    .socials a {
+      font-size: 1.5rem;
+      text-decoration: none;
+      color: #a29bc7; /* Muted pastel purple */
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+    .socials a:hover {
+      color: #7c6bff; /* Brighter pastel purple on hover */
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="Aline.png" alt="Aline Cunico" class="profile-img" />
+    <h1>Aline Cunico</h1>
+    <h2>Creative Lead | Media Strategy | Production & Storytelling</h2>
+    <p>
+      Over 15 years of experience crafting innovative, cross-platform content across digital media, advertising, and emerging tech.
+      Passionate about blending creativity, technology, and strategy to deliver high-impact storytelling at scale.
+    </p>
+
+    <div class="skills">
+      <div class="skill">Video Production</div>
+      <div class="skill">Design</div>
+      <div class="skill">Animation</div>
+      <div class="skill">Motion Graphics</div>
+      <div class="skill">Creative Strategy</div>
+      <div class="skill">Creative Optimization</div>
+      <div class="skill">Data Science</div>
+      <div class="skill">Generative AI</div>
+      <div class="skill">LLM APIs</div>
+      <div class="skill">Creative Automation</div>
+      <div class="skill">Storytelling</div>
+      <div class="skill">Virtual Production</div>
+    </div>
+
+    <div class="socials">
+      <a href="https://linkedin.com/in/alinecunico" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:alinedcunico@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+      <a href="https://bit.ly/3RUTpHq" target="_blank" title="Showreel"><i class="fas fa-video"></i></a>
+      <a href="https://github.com/aduarte2015" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </div>
+</body>
+</html>
